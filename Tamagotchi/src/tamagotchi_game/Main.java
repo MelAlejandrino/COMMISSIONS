@@ -1,9 +1,6 @@
 package tamagotchi_game;
 import java.util.Scanner;
 
-import tamagotchi_game.Actions.Action;
-import tamagotchi_game.Actions.ActionFactory;
-
 public class Main {
 
     public static void Interface(Scanner scanner, TamagotchiPet pet) {

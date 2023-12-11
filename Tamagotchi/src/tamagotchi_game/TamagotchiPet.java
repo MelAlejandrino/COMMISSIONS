@@ -1,7 +1,5 @@
 package tamagotchi_game;
 
-import tamagotchi_game.Locations.Location;
-
 public class TamagotchiPet {
 	private static TamagotchiPet instance;
 	
