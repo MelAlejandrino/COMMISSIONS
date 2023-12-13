@@ -1,6 +1,6 @@
 package tamagotchi_game;
 
-public enum Location {
+public enum Locations {
 	LOBBY,
 	KITCHEN,
 	PLAYGROUND,

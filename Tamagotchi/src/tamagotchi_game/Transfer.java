@@ -1,6 +1,7 @@
 package tamagotchi_game;
 import java.util.Scanner;
 
+
 public class Transfer implements Action {
 	Scanner scanner = new Scanner(System.in);
     private TamagotchiPet pet;
@@ -18,31 +19,31 @@ public class Transfer implements Action {
         
         switch(transfer_choice) {
         case 1:
-        	if(this.pet.getLocation() == Location.LOBBY) {
+        	if(this.pet.getLocation() == Locations.LOBBY) {
         		System.out.println("You are already in the Lobby!");
         	} else {
-        		this.pet.changeLocation(Location.LOBBY);
+        		this.pet.changeLocation(Locations.LOBBY);
         	}
         	break;
         case 2:
-        	if(this.pet.getLocation() == Location.KITCHEN) {
+        	if(this.pet.getLocation() == Locations.KITCHEN) {
         		System.out.println("You are already in the Kitchen!");
         	} else {
-        		this.pet.changeLocation(Location.KITCHEN);
+        		this.pet.changeLocation(Locations.KITCHEN);
         	}
         	break;
         case 3:
-        	if(this.pet.getLocation() == Location.PLAYGROUND) {
+        	if(this.pet.getLocation() == Locations.PLAYGROUND) {
         		System.out.println("You are already in the Playground!!");
         	} else {
-        		this.pet.changeLocation(Location.PLAYGROUND);
+        		this.pet.changeLocation(Locations.PLAYGROUND);
         	}
         	break;
         case 4:
-        	if(this.pet.getLocation() == Location.TRAINING_ROOM) {
+        	if(this.pet.getLocation() == Locations.TRAINING_ROOM) {
         		System.out.println("You are already in the Training Room!");
         	} else {
-        		this.pet.changeLocation(Location.TRAINING_ROOM);
+        		this.pet.changeLocation(Locations.TRAINING_ROOM);
         	}
         	break;
         default:

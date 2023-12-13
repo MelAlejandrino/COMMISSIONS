@@ -1,6 +1,6 @@
 package tamagotchi_game;
 
-public abstract class LocationAction {
+public abstract class LocationFactory {
 
     public abstract void feedPet(TamagotchiPet pet);
     public abstract void trainPet(TamagotchiPet pet);

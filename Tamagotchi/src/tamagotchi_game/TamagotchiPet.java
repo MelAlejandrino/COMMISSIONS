@@ -6,14 +6,14 @@ public class TamagotchiPet {
 	private int hungerLevel;
 	private int happinessLevel;
 	private int trainingLevel;
-	private Location location;
+	private Locations location;
 
 	private TamagotchiPet() {
 		hungerLevel = 50;
 		happinessLevel = 100;
 		trainingLevel = 20;
 		
-		location = Location.LOBBY;
+		location = Locations.LOBBY;
 	}
 	
 	public static TamagotchiPet getInstance() {
@@ -75,7 +75,7 @@ public class TamagotchiPet {
 	    }
 	}
 	
-	public void changeLocation(Location location) {
+	public void changeLocation(Locations location) {
         this.location = location;
     }
 	
@@ -91,7 +91,7 @@ public class TamagotchiPet {
 		return trainingLevel;
 	}
 	
-	public Location getLocation() {
+	public Locations getLocation() {
 		return location;
 	}
 	
